@@ -7,7 +7,6 @@
 li,a {
     text-decoration: none;
     color: white;
-    border: 1px dashed red;
 }
 
 nav {
@@ -17,18 +16,15 @@ nav {
     background: black;
     height: 7vh;
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    border: 1px dashed red;
 }
 
 .navlist {
     list-style: none;
     display: flex;
-    border: 1px dashed red;
 }
 
 .navlist li {
     margin-left: 32px;
-    border: 1px dashed red;
 }
 
 
@@ -39,7 +35,6 @@ nav {
     height: 400px;
     margin: 0 auto;
     overflow: hidden;
-    border: 1px dashed red;
 }
 
 .FotoP img {
@@ -48,7 +43,6 @@ nav {
     object-fit: cover;
     object-position: center;
     -webkit-user-drag: none;
-    border: 1px dashed red;
 }
 
 .Corposite {
@@ -57,7 +51,6 @@ nav {
     justify-content: center;
     gap: 10px;
     padding: 50px;
-    border: 1px dashed red;
 }
 
 
@@ -67,12 +60,10 @@ nav {
     width: 40%;
     text-align: left;
      border: 1px solid black;
-     border: 1px dashed red;
 }
 
 .ibagem {
     width: 40%;
-    border: 1px dashed red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,14 +72,12 @@ nav {
 .ibagem img {
     width: 80%;
     -webkit-user-drag: none;
-    border: 1px dashed red;
 }
 
 p {
     margin: 10px;
     text-align: left;
     font-size: 1.2rem;
-    border: 1px dashed red;
 }
 
 
