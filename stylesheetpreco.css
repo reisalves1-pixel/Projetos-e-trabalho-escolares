@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+li,a {
+    text-decoration: none;
+    color: white;
+    border: 1px dashed red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    height: 7vh;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    border: 1px dashed red;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    border: 1px dashed red;
+}
+
+.navlist li {
+    margin-left: 32px;
+    border: 1px dashed red;
+}
+
+
+/* Corpo do site */
+
+.FotoP{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px dashed red;
+}
+
+.FotoP img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    -webkit-user-drag: none;
+    border: 1px dashed red;
+}
+
+.Corposite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+    border: 1px dashed red;
+}
+
+
+.div-text {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    text-align: left;
+     border: 1px solid black;
+     border: 1px dashed red;
+}
+
+.ibagem {
+    width: 40%;
+    border: 1px dashed red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ibagem img {
+    width: 80%;
+    -webkit-user-drag: none;
+    border: 1px dashed red;
+}
+
+p {
+    margin: 10px;
+    text-align: left;
+    font-size: 1.2rem;
+    border: 1px dashed red;
+}
+
+
+ul,li {
+    color: black;
+    list-style: none;
+}
