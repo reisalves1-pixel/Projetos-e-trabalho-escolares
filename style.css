@@ -7,6 +7,7 @@
 li,a {
     text-decoration: none;
     color: white;
+    border: 1px dashed red;
 }
 
 nav {
@@ -16,15 +17,18 @@ nav {
     background: black;
     height: 7vh;
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    border: 1px dashed red;
 }
 
 .navlist {
     list-style: none;
     display: flex;
+    border: 1px dashed red;
 }
 
 .navlist li {
     margin-left: 32px;
+    border: 1px dashed red;
 }
 
 
@@ -35,6 +39,7 @@ nav {
     height: 400px;
     margin: 0 auto;
     overflow: hidden;
+    border: 1px dashed red;
 }
 
 .FotoP img {
@@ -43,6 +48,7 @@ nav {
     object-fit: cover;
     object-position: center;
     -webkit-user-drag: none;
+    border: 1px dashed red;
 }
 
 .Corposite {
@@ -51,6 +57,7 @@ nav {
     justify-content: center;
     gap: 10px;
     padding: 50px;
+    border: 1px dashed red;
 }
 
 
@@ -60,10 +67,12 @@ nav {
     width: 40%;
     text-align: left;
      border: 1px solid black;
+     border: 1px dashed red;
 }
 
 .ibagem {
     width: 40%;
+    border: 1px dashed red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,12 +81,14 @@ nav {
 .ibagem img {
     width: 80%;
     -webkit-user-drag: none;
+    border: 1px dashed red;
 }
 
 p {
     margin: 10px;
     text-align: left;
     font-size: 1.5rem;
+    border: 1px dashed red;
 }
 
 .Pai-Ob {
@@ -86,6 +97,7 @@ p {
     padding: 50px;
     justify-content: center;
     gap: 10px;
+    border: 1px dashed red;
 }
 
 .Objetivo {
@@ -93,12 +105,14 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     width: 40%;
     text-align: left;
+    border: 1px dashed red;
 }
 
 .FObj {
     width: 40%;
     display: flex;
     justify-content: center;
+    border: 1px dashed red;
 }
 
 
@@ -106,6 +120,7 @@ p {
     width: 80%;
     -webkit-user-drag: none;
     align-items: left;
+    border: 1px dashed red;
 }
 
 
@@ -115,7 +130,7 @@ p {
     padding: 50px;
     justify-content: center;
     gap: 10px;
-    
+    border: 1px dashed red;
 }
 
 .Meto-text {
@@ -123,11 +138,13 @@ p {
     font-family:Georgia, 'Times New Roman', Times, serif;
     width: 40%;
     text-align: left;
-    border: 1px solid black;
+     border: 1px solid black;
+     border: 1px dashed red;
 }
 
 .Meto-imagem {
     width: 40%;
+    border: 1px dashed red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,12 +154,11 @@ p {
     width: 60%;
     -webkit-user-drag: none;
     align-items: left;
+    border: 1px dashed red;
 
 }
 
 ul,li {
     color: black;
     list-style: none;
-    padding: 10px;
-    
 }
